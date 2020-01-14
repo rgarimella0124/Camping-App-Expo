@@ -27,7 +27,7 @@ const { width, height } = Dimensions.get("screen");
 
 class Campings extends React.Component {
   static navigationOptions = {
-    header: null
+    headerShown: false
   };
 
   componentDidMount() {
